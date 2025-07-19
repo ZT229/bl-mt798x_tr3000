@@ -30,15 +30,15 @@
 		};
 
 		layout@1 {
-			label = "112m";
-			mtdids = "nmbm0=nmbm0";
-			mtdparts = "nmbm0:1024k(bl2),512k(u-boot-env),2048k(Factory),256k(bdinfo),2048k(fip),114688k(ubi)";
-		};
-
-		layout@2 {
 			label = "230m";
 			mtdids = "nmbm0=nmbm0";
 			mtdparts = "nmbm0:1024k(bl2),512k(u-boot-env),2048k(Factory),256k(bdinfo),2048k(fip),235520k(ubi)";
+		};
+
+		layout@2 {
+			label = "490m";
+			mtdids = "nmbm0=nmbm0";
+			mtdparts = "nmbm0:1024k(bl2),512k(u-boot-env),2048k(Factory),256k(bdinfo),2048k(fip),501760k(ubi)";
 		};
 
 	};
