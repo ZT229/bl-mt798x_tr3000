@@ -12,7 +12,7 @@ sudo apt install gcc-aarch64-linux-gnu build-essential flex bison libssl-dev dev
 ## Build
 ```
 Usage:
-eg: SOC=mt7981 BOARD=cudy_tr3000 MULTI_LAYOUT=0 ./build.sh //单一的大分区230M
+eg: SOC=mt7981 BOARD=cudy_tr3000 MULTI_LAYOUT=0 ./build.sh //单一的大分区112M
 
 eg: SOC=mt7981 BOARD=cudy_tr3000 MULTI_LAYOUT=1 ./build.sh //多分区，最大230M
 
